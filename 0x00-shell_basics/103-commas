@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap | grep -E '^\./\.\.?$' -v | sort -df | tr '\n' ','
+ls -1Ap | sort -d | awk '{ if ($0 == "./" || $0 == "../") { printf $0 ", " } else { printf $0 "/, " }} END { print "" }'
