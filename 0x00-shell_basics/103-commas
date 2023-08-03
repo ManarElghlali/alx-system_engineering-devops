@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap | sort -dk1,1 | awk '{ printf "%s,", $0 } END { print "" }'
+ls -Ap | grep -E '^\./\.\.?$' -v | sort -df | tr '\n' ','
