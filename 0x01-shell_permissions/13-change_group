@@ -1,2 +1,2 @@
 #!/bin/bash
-chowm :school my_dir
+chgrp schoo /my_dir
