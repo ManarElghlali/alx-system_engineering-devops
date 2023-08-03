@@ -1,2 +1,2 @@
 #!/bin/bash
-cowm :school my_dir
+chowm :school my_dir
