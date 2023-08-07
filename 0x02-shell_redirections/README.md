@@ -11,3 +11,4 @@
 9 command that duplicates the last line of the file iacta
 10  deletes all the regular files with a .js extension that are present in the current directory and all its subfolders.
 11 counts the number of directories and sub-directories in the current directory.
+12 displays the 10 newest files in the current directory.
